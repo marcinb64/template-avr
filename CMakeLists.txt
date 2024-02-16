@@ -7,7 +7,6 @@ project(
     LANGUAGES CXX)
 
 # Build customization
-#set(CMAKE_BUILD_TYPE Debug)
 option(WARNINGS_AS_ERRORS "Treat compiler warnings as errors" On)
 option(ENABLE_SANITIZERS "Enable sanitizers" Off)
 option(ENABLE_UTEST "Enable unit testing" Off)
